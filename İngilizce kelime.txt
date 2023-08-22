@@ -1,0 +1,54 @@
+introduction : giriş
+participate : katılmak
+whole : tüm
+hope : umut
+mankind : insanlık
+most : en
+nowadays : bu günlerde
+artificial intelligence : yapay zeka
+artificial : yapay
+recent : son
+consecutive : ardışık, birbirini izleyen
+requirement : gereksinim, gereklilik
+necessity : gereklilik
+necessary : gerekli
+desire : arzu, istek
+request : talep, istek
+then : daha sonra, o zaman, öyleyse
+device : cihaz
+prompt : çabuk
+recommend : tavsiye
+yet : henüz
+shortcut : kısa yol
+snippet : pasaj
+built-in : yerleşik, halihazırda inşaa edilmiş
+display : görüntülemek
+separated : ayrık, ayrılmış
+readable : okunabilir
+so far : şimdiye kadar 
+arrangement : ayarlama, düzenleme
+expression : ifade
+phrase : ifade
+compund : birleşik
+meaningful : anlamlı 
+convey : iletmek
+delibrate : bile isteye, kasıtlı
+informative : bilgilendirici
+guideline : yönerge, ilke
+mandatory : zorunlu
+interact : etkileşime girmek
+wrote : yazmak(geçmiş zaman)
+comparison : karşılaştırma, kıyaslama
+addition : ek
+declare : ilan etmek, beyan etmek
+assign : atamak
+previous : öncesi, geçmiş
+mentioned : adı geçmiş, bahsedilmiş
+include : dahil etmek, içermek
+immutable : değişmez
+immune : bağışık, etkilenmeyen
+immunity : bağışıklık
+mutable : değiştirilebilir
+interpolation : interpolasyon, ara değer bulma
+split: bölmek
+otherwise : aksi takdirde
