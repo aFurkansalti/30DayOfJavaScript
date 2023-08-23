@@ -52,3 +52,5 @@ mutable : değiştirilebilir
 interpolation : interpolasyon, ara değer bulma
 split: bölmek
 otherwise : aksi takdirde
+export : ihraç edilen, dışa aktarılan 
+import : ithalat, içe aktarılan

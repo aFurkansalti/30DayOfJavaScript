@@ -72,8 +72,37 @@ ${word.split(' ')}
 
 console.log('  furkan  '.split('').reverse().join('').trim())
 
-let string = '30 Days Of JavaScript'
-console.log(string.includes('Days'), string.includes('days'))
+let str = '30 Days Of JavaScript'
+console.log(str.includes('Days'), str.includes('days'))
+
+let hello = 'mehaba ahmet nasılsın ahmet'
+console.log(hello.replace('ahmet', 'furkan'))
+
+console.log(hello.replaceAll('ahmet', 'furkan'))
+
+console.log(hello.charAt(hello.length - 1), hello.charCodeAt(hello.length - 1))
+
+console.log(hello.indexOf('h'), hello.indexOf('Merhaba'))
+
+str = 'I love JavaScript. If you do not love JavaScript what else can you love.'
+console.log(str.match('love'))
+
+let txt = 'In 2019, I ran 30 Day Of JavaScript.'
+let regEx = /\d+/
+console.log(txt.match(regEx))
+console.log(txt.match(/\d+/g))
+
+str = 'love'
+console.log(str.repeat(10))
+
+let num = '10'
+console.log(typeof parseInt(num))
+console.log(typeof Number(num))
+console.log(typeof +num)
+
+
+
+
 
 
 
