@@ -1,3 +1,8 @@
+addition : ek
+arrangement : ayarlama, düzenleme
+artificial : yapay
+artificial intelligence : yapay zeka
+assign : atamak
 introduction : giriş
 participate : katılmak
 whole : tüm
@@ -5,8 +10,6 @@ hope : umut
 mankind : insanlık
 most : en
 nowadays : bu günlerde
-artificial intelligence : yapay zeka
-artificial : yapay
 recent : son
 consecutive : ardışık, birbirini izleyen
 requirement : gereksinim, gereklilik
@@ -26,7 +29,7 @@ display : görüntülemek
 separated : ayrık, ayrılmış
 readable : okunabilir
 so far : şimdiye kadar 
-arrangement : ayarlama, düzenleme
+
 expression : ifade
 phrase : ifade
 compund : birleşik
@@ -39,9 +42,8 @@ mandatory : zorunlu
 interact : etkileşime girmek
 wrote : yazmak(geçmiş zaman)
 comparison : karşılaştırma, kıyaslama
-addition : ek
+
 declare : ilan etmek, beyan etmek
-assign : atamak
 previous : öncesi, geçmiş
 mentioned : adı geçmiş, bahsedilmiş
 include : dahil etmek, içermek
