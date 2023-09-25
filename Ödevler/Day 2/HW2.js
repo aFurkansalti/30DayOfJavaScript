@@ -115,6 +115,98 @@ for (const word of words) {
 
 console.log(`The word "love" appears ${count} times in the sentence.`); // 1
 
+sentence = 'You cannot end a sentence with because because because is a conjunction';
+
+console.log(sentence.match(/because/gi)); // 2
+
+sentence = `%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching`;
+
+let wordsOfSentence = sentence.split(``);
+for (let character = 0; character < wordsOfSentence.length; character++) {
+    if (wordsOfSentence[character] === `%` || wordsOfSentence[character] === `$` || wordsOfSentence[character] === `@` ||
+    wordsOfSentence[character] === `.` || wordsOfSentence[character] === `;` || wordsOfSentence[character] === `#` || 
+    wordsOfSentence[character] === `!` || wordsOfSentence[character] === `?` || wordsOfSentence[character] === `&`) 
+    {
+        wordsOfSentence[character] = ``;
+    }
+}
+console.log(wordsOfSentence)
+let tempSentence = wordsOfSentence.join(``);
+
+wordsOfSentence = tempSentence.split(` `);
+
+console.log(wordsOfSentence)
+/*
+for (let word in wordsOfSentence) {
+    let count = 0;
+    for (let word2 in wordsOfSentence) {
+        if (word == word2) {
+            count++;
+        }
+    }
+    console.log(`The word ${word} is used ${count} times in this sentence`);
+}
+*/
+let countMaxElement = 0;
+for (let i = 0; i < wordsOfSentence.length; i++) {
+    let count = 0;
+    
+    for (let j = 0; j < wordsOfSentence.length; j++) {
+        if (wordsOfSentence[i] == wordsOfSentence[j]) {
+            count++;
+        }
+    }
+    if (count >= countMaxElement) {
+        countMaxElement = count;
+    }
+}
+// console.log(countMaxElement)
+let maxElementS = [];
+let array = [''];
+for (let i = 0; i < wordsOfSentence.length; i++) {
+    let count = 0;
+    
+    for (let j = 0; j < wordsOfSentence.length; j++) {
+        if (wordsOfSentence[i] == wordsOfSentence[j]) {
+            count++;
+        }
+    }
+    
+    let isAvailable;
+    for (let k = 0; k < array.length; k++) {
+        if (array[k] === wordsOfSentence[i]) {
+            isAvailable = false;
+            break;
+        } else {
+            isAvailable = true;
+        }
+    }
+    // console.log(isAvailable)
+    if (isAvailable) {
+        console.log(`The word "${wordsOfSentence[i]}" is used ${count} times in this sentence`);
+    }
+    array.push(wordsOfSentence[i]);
+    if (count >= countMaxElement) {
+        countMaxElement = count;
+        maxElementS.push(wordsOfSentence[i]);
+    } 
+}
+console.log(`En fazla olan elementler;`);
+console.log(maxElementS)
+// console.log(array)    // 3
+
+
+annualIncome = (5000 + 15000)*12 + 10000;
+console.log(`Yıllık geliri ${annualIncome} euro.`); // 4
+
+
+
+
+
+
+
+
+
 
 
 

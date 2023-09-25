@@ -63,3 +63,8 @@ patronize : patronluk taslamak
 charity : hayır kurumu
 jargon : argo, varoş konuşma
 inclusively : kapsayıcı olarak
+annual : yıllık
+income : gelir
+extract : çıkarmak
+salary : indirim
+per : başına
