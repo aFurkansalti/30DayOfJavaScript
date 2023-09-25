@@ -100,6 +100,12 @@ console.log(typeof parseInt(num))
 console.log(typeof Number(num))
 console.log(typeof +num)
 
+let nums = [1, 2, 3]
+let numbers = [1, 2, 3]
+let integers = nums
+
+console.log("nums == integers", nums == integers)
+console.log("nums == numbers", nums == numbers)
 
 
 
