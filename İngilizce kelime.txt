@@ -68,3 +68,8 @@ income : gelir
 extract : çıkarmak
 salary : indirim
 per : başına
+decision : karar
+logic : mantık
+exhaustive : ayrıntılı
+destruct : yok etmek
+boundless : sınırsız
