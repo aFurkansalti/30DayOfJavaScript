@@ -73,3 +73,11 @@ logic : mantık
 exhaustive : ayrıntılı
 destruct : yok etmek
 boundless : sınırsız
+elapse : geçmek
+perimeter : çevre
+triangle : üçgen
+rectangle : dikdörtgen
+radius : yarıçap
+circumference : çevre
+y-intercept : y kesme noktası
+slope : eğim

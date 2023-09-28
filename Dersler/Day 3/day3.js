@@ -37,3 +37,5 @@ let days = [
 
 let humanReadableDate = `${day} ${months[month]} ${year}, ${days[day]}, ${hour}:${minute}:${second}`
 console.log(humanReadableDate)
+
+
