@@ -81,3 +81,6 @@ radius : yarıçap
 circumference : çevre
 y-intercept : y kesme noktası
 slope : eğim
+extraordinary : olağan üstü
+remarkable : dikkat çekici
+potential : potansiyel

@@ -228,3 +228,4 @@ console.log(`Yıllık geliri ${annualIncome} euro.`); // 4
 
 
 
+
